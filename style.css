@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.hero{
+    width:100%;
+    height:100vh;
+    background-image: url(background.png);
+    background-size:contain;
+    background-position: center;
+    position:relative;
+    overflow:hidden;
+}
+
+/*
+px -> the standard dynamic dimensions used
+em -> relative to the parent size
+rem -> realtive to font-size of root element
+* the standard font-size is 16 px
+vw -> Relative to 1% of the width of the viewport
+vh -> Relative to 1% of the height of the viewport
+vmin -> Relative to 1% of viewport's* smaller dimension
+vmax -> Relative to 1% of viewport's* larger dimension
+% -> Relative to the parent element
+*/
