@@ -7,11 +7,36 @@
     width:100%;
     height:100vh;
     background-image: url(background.png);
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     position:relative;
     overflow:hidden;
 }
+.logo{
+    width:100px;
+    cursor:pointer;
+}
+.navbar{
+    width: 85%;
+    height:15%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color:#fbfcfd;
+    padding:10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor:pointer; 
+}
+
+
+
+
 
 /*
 px -> the standard dynamic dimensions used
@@ -23,4 +48,11 @@ vh -> Relative to 1% of the height of the viewport
 vmin -> Relative to 1% of viewport's* smaller dimension
 vmax -> Relative to 1% of viewport's* larger dimension
 % -> Relative to the parent element
+
+type attribute for button is "submit" "reset"
+type attribute for input is all form contents
+
+contain -> Resize the background image to make sure the image is fully visible
+cover -> Resize the background image to cover the entire container,
+even if it has to stretch the image or cut a little bit off one of the edges
 */
